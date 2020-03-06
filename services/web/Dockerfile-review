@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:10.19-stretch-slim
 
 # set working directory
 RUN mkdir /usr/src/app
